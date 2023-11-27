@@ -39,3 +39,8 @@
 .body{
   background-color: #282c34;
 }
+
+.grey-divider{
+  height: 10px;
+  background-color: #282c34;
+}
