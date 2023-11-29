@@ -12,8 +12,8 @@ function Hero() {
                 <div class="dropdown">
                     <button class="dropbtn">English</button>
                     <div class="dropdown-content">
-                        <a href="#">English</a>
-                        <a href="#">Hindi</a>
+                        <a href="/">English</a>
+                        <a href="/">Hindi</a>
                     </div>
                 </div>
                 <button className="signUpBtn">
