@@ -2,4 +2,6 @@
 
 
 ## The Clone till now looks like this.. 
-![image](https://github.com/dhruvjaink07/netflix-clone-react/assets/109206275/f9963f5e-c6af-4f46-b6e4-d1af6e997508)
+
+https://github.com/dhruvjaink07/netflix-clone-react/assets/109206275/117e8b18-c39a-4f66-aff1-9ec091ee1353
+
