@@ -7,7 +7,7 @@
 }
 .heroPage{
     height: 700px;
-    filter: brightness(60%) ;
+    filter: brightness(75%) ;
     background-image: url(./assets/images/netflix-bg.jpg);
     background-size: cover;
 }

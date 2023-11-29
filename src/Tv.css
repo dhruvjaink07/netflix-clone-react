@@ -1,42 +1,104 @@
-.container{
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
     height: 500px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0);
     display: flex;
     position: relative;
-}
-.text-bold{
+  }
+
+  .text-bold {
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 50px;
-}
-.text{
+  }
+
+  .text {
     color: white;
-    font-size: 30px;
-}
-.text-align{
+    font-size: 27px;
+  }
+
+  .text-align {
     width: 700px;
     padding-left: 0;
     padding-top: 140px;
-}
-.tvbox{
+  }
+
+  .tvbox {
     padding-top: 5px;
     height: 250px;
-    width: 350px;
+    width: 300px;
     
-}
-.video-overlay {
+  }
+
+  .tv {
+    position: relative;
+    z-index: 1;
+  }
+
+  .tv-video {
     position: absolute;
-    top: 0;
-    left: 0;
-    padding-right: 50px;
-    width: 100%;
-    height: 100%;
+    top: 105px;
+    margin-left: 85px;
+    /* padding-right: 50px; */
+    z-index: 0;
+    width: 465px;
     display: flex;
-    justify-content:right;
+    justify-content: right;
     align-items: center;
   }
+
   video {
-    
     object-fit: cover;
   }
-    
+
+  
+    /* Component 2 */
+.left2{
+    width: 700px;
+    padding-top: 70px;
+    margin-left: 50px;
+}
+.feature2{
+    height: 400px;
+}
+.para{
+    padding-top: 75px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+
+/* Component 3 */
+
+.tv1 {
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
+  }
+
+.tv-video1 {
+    position: absolute;
+    top: 80px;
+    margin-left: 122px;
+    z-index: 0;
+    width: 390px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  /* Component 4 */
+.para2{
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+.feature4{
+  height: 400px;
+  padding-left: 80px;
+}
+
